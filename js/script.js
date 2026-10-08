@@ -18,3 +18,10 @@ function cambiarEstilo() {
     texto.style.backgroundColor = "yellow";
 
 }
+function cambiarTexto() {
+
+    const nuevoTexto = document.getElementById("nuevoTexto").value;
+
+    document.getElementById("texto").innerHTML = nuevoTexto;
+
+}
