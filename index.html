@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JavaScript e interacción con HTML</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>JavaScript e interacción con HTML</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Modificar contenido HTML</a>
+        <a href="#">Modificar estilos CSS</a>
+        <a href="#">Modificar atributos HTML</a>
+    </nav>
+
+    <main>
+
+        <h2>Curso de JavaScript</h2>
+
+        <p>
+            En este curso aprenderemos a utilizar JavaScript
+            para interactuar con elementos HTML y modificar
+            su contenido, estilos y atributos.
+        </p>
+
+    </main>
+
+    <section id="contenido">
+
+    <h2>Modificar contenido HTML</h2>
+
+    <p id="texto">
+        Este texto se puede modificar mediante JavaScript.
+    </p>
+
+    <button onclick="cambiarTexto()">
+        Modificar contenido
+    </button>
+
+</section>
+<section id="atributos">
+
+    <h2>Modificar atributos HTML</h2>
+
+    <img id="imagen"
+         src="img/imagen1.jpg"
+         alt="Imagen inicial">
+
+    <br>
+
+    <button onclick="cambiarImagen()">
+        Cambiar imagen
+    </button>
+
+</section>
+<section id="estilos">
+
+    <h2>Modificar estilos CSS</h2>
+
+    <p id="textoEstilo">
+        Este texto cambiará de estilo.
+    </p>
+
+    <button onclick="cambiarEstilo()">
+        Cambiar estilo
+    </button>
+
+</section>
+
+    <footer>
+
+        <p>
+            Curso de JavaScript - Sistemas de control de versiones
+        </p>
+
+    </footer>
+<script src="js/script.js"></script>
+</body>
+</html>

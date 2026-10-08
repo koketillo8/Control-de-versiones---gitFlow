@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ddd;
+}
+
+nav a {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+    border-right: 1px solid #aaa;
+}
+
+nav a:hover {
+    background-color: #bbb;
+}
+
+main {
+    min-height: 400px;
+    padding: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
